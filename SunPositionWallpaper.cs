@@ -24,7 +24,6 @@ namespace SunPositionWallpaper
                 return;
             }
 
-            // ✅ طباعة اسم الملف فقط
             string result = await clsWallpaperBasedOnSunPosition.GetWallpaperBasedOnSunPosition(latitude, longitude);
             Console.WriteLine(result);
         }
